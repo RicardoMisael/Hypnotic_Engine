@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5d0c1f55-747f-4f8d-a978-e2aad2413eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{65a75ef5-c957-4187-b2b3-cb865d1ce5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{3a2a34f5-372a-44bb-a8a8-aa14584f41bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\include">
+      <UniqueIdentifier>{6c931335-4410-4398-a58f-8f72d9d5845b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\src">
+      <UniqueIdentifier>{52264652-c91e-4dde-8640-daa7ed03678d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilities">
+      <UniqueIdentifier>{f06088bb-3ee2-413e-9cda-d879d441a699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilities\Matrix">
+      <UniqueIdentifier>{5b6aa7ba-2549-40a8-afca-7445b20e9a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilities\Vectors">
+      <UniqueIdentifier>{f7daa6fb-f3cf-4d9f-83a4-0b6dc6d48023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilities\Memory">
+      <UniqueIdentifier>{68cceab9-8827-460c-a4d1-f7694742e1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utilities\Structures">
+      <UniqueIdentifier>{01c4c987-81bd-4151-9deb-2b1bc8947ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ECS">
+      <UniqueIdentifier>{dac33efb-7e59-4811-bd15-a69d90014d86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Prerequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\backends\imgui_impl_win32.h">
+      <Filter>imgui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\backends\imgui_impl_dx11.h">
+      <Filter>imgui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_rectpack.h">
+      <Filter>imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_textedit.h">
+      <Filter>imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imstb_truetype.h">
+      <Filter>imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imconfig.h">
+      <Filter>imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imgui.h">
+      <Filter>imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-docking\imgui_internal.h">
+      <Filter>imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UserInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseApp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SamplerState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Buffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputLayout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Viewport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Swapchain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MeshComponent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderTargetView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeviceContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Device.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DepthStencilView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OBJ_Loader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModelLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\EngineMath.h">
+      <Filter>include\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Matrix\Matrix2x2.h">
+      <Filter>include\utilities\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Matrix\Matrix3x3.h">
+      <Filter>include\utilities\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Matrix\Matrix4x4.h">
+      <Filter>include\utilities\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Vectors\Quaternion.h">
+      <Filter>include\utilities\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Vectors\Vector2.h">
+      <Filter>include\utilities\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Vectors\Vector3.h">
+      <Filter>include\utilities\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Vectors\Vector4.h">
+      <Filter>include\utilities\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Memory\TSharedPointer.h">
+      <Filter>include\utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Memory\TStaticPtr.h">
+      <Filter>include\utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Memory\TUniquePtr.h">
+      <Filter>include\utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Memory\TWeakPointer.h">
+      <Filter>include\utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Structures\TArray.h">
+      <Filter>include\utilities\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Structures\TMap.h">
+      <Filter>include\utilities\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Structures\TPair.h">
+      <Filter>include\utilities\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utilities\Structures\TSet.h">
+      <Filter>include\utilities\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Actor.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Component.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Entity.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Transform.h">
+      <Filter>include\ECS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HipnoticEngine.cpp" />
+    <ClCompile Include="imgui\imgui-docking\backends\imgui_impl_win32.cpp">
+      <Filter>imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_draw.cpp">
+      <Filter>imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_tables.cpp">
+      <Filter>imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_widgets.cpp">
+      <Filter>imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui.cpp">
+      <Filter>imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-docking\imgui_demo.cpp">
+      <Filter>imgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DepthStencilView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeviceContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputLayout.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderTargetView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SamplerState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Swapchain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UserInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Viewport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModelLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="hello.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HipnoticEngine.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="HipnoticEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
