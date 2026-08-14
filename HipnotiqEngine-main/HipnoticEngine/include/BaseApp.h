@@ -14,6 +14,8 @@
 #include "UserInterface.h"
 #include "ModelLoader.h"
 #include "ECS/Actor.h"
+#include "UserInterface.h"
+#include "HypnoticProfiler.h"
 
 class
   BaseApp {
